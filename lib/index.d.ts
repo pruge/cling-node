@@ -17,7 +17,7 @@ export declare class Node extends EventEmitter {
     /**
      * json 설정 정보를 통해 노드 초기화
      */
-    initialize(variables: ClingProducts): Promise<void>;
+    initialize(devices: ClingProducts): Promise<void>;
     button(name: string): Button;
     switch2(name: string): Switch2;
     sensor(name: string): Sensor;
